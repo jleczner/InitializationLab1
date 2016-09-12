@@ -5,6 +5,13 @@ package leczner.jon.InitializationLab1;
  */
 public class InitializationLab1 {
     public static void main(String[] args) {
+        BoringThing b1 = new BoringThing();
+        BoringThing b2 = new BoringThing();
+        BoringThing b3 = new BoringThing();
+        BoringThing b4 = new BoringThing();
+        BoringThing b5 = new BoringThing();
+
+
         ColorfulThing blueThing = new ColorfulThing(ColorfulThing.Color.BLUE);
         ColorfulThing redThing = new ColorfulThing(ColorfulThing.Color.RED);
         ColorfulThing greenThing = new ColorfulThing(ColorfulThing.Color.GREEN);
